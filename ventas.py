@@ -57,3 +57,4 @@ df[['almacen','indumentaria_calzado_textiles_hogar','electronicos_articulos_hoga
 valores_nulos=df.isnull().sum()
 print(valores_nulos)
 #Finalmente, para estas variables, al tener mas de un valor nulo, se lleva a cabo el reempalzo de los nulos con el método que repite los últimos valores. 
+
